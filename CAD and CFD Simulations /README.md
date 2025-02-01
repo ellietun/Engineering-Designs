@@ -10,15 +10,6 @@ This repository contains **CFD simulation files** for the **Circle of Willis**, 
 ### **Physical Model**
 - Simplified 3D model of the **Circle of Willis**
 - Blood modeled as a **Non-Newtonian fluid** using the **Carreau-Yasuda Model**:
-  
-  \[ \mu_{eff} = \mu_\infty + (\mu_0 - \mu_\infty) (1 + (\lambda\dot{\gamma})^2)^{(n-1)/2} \]
-  
-  Where:
-  - \( \mu_{eff} \) = Effective viscosity
-  - \( \mu_0 = 0.056 \) kg/ms
-  - \( \mu_\infty = 0.0035 \) kg/ms
-  - \( \lambda = 3.313 \) s
-  - \( n = 0.3568 \)
 
 ### **Boundary Conditions**
 - **4 Velocity Inlets:**
