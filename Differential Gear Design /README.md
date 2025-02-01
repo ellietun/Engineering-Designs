@@ -4,7 +4,7 @@
 This repository contains a **SolidWorks design** for a **differential motor system**, focusing on efficient power distribution and mechanical integrity. The model includes all necessary components and assemblies required for simulation and manufacturing considerations.
 
 ## Design Preview
-![Uploading Screenshot 2025-02-01 at 3.40.59 PM.png…]()
+<img width="998" alt="Screenshot 2025-02-01 at 3 40 59 PM" src="https://github.com/user-attachments/assets/00d17c1c-3a2b-453f-b99f-21097d862946" />
 
 ## Features
 - **3D CAD Model**: Fully parametric SolidWorks design.
