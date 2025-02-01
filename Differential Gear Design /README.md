@@ -13,10 +13,13 @@ This repository contains a **SolidWorks design** for a **differential motor syst
 - **Engineering Drawings**: Detailed technical documentation for manufacturing.
 
 ## Files Included
-- `DifferentialMotor.SLDPRT` – Individual component designs.
-- `DifferentialMotor.SLDASM` – Full assembly file.
-- `ExplodedView.SLDASM` – Disassembled visualization.
-- `EngineeringDrawings.PDF` – Detailed blueprint of the design.
+- `Differential Motor.avi` – Animation of the motor in action.
+- `Differential Motor.SLDASM` – Full assembly file.
+- `Differential Motor.SLDDRW` – Engineering drawing for the design.
+- `Part1W7.SLDPRT` – First component design.
+- `Part2w7.SLDPRT` – Second component design.
+- `Part3W7.SLDPRT` – Third component design.
+- `Part4.2w7.SLDPRT` – Fourth component design.
 - `README.md` – Project documentation.
 
 ## Requirements
