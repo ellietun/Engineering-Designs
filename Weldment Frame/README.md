@@ -3,6 +3,11 @@
 ## Overview
 This repository contains **SolidWorks designs** for both a **sheet metal component** and a **weldment frame**, demonstrating advanced SolidWorks techniques for manufacturing and structural applications.
 
+## Preview of the file
+<img width="962" alt="454C72FB-3218-4345-A8A5-DD95C121F587" src="https://github.com/user-attachments/assets/cb7511e9-0fb4-4137-b408-2b17864388b7" />
+<img width="958" alt="FB2FA1ED-05BF-48BC-838D-FA820E12A419" src="https://github.com/user-attachments/assets/8c97fb43-3a46-41a6-9862-f6ecaefff7c3" />
+
+
 ## Features
 - **Sheet Metal Design**: Created using the **Sheet Metal** tool in SolidWorks, including bend allowances and a flat pattern.
 - **Weldment Frame**: Developed using the **Weldment** tool in SolidWorks, incorporating structural members and a cut list.
