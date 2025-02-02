@@ -1,0 +1,103 @@
+Transcript Start Time:  12:13:14, 24 Oct 2024 E. Australia Standard Time 
+Current Directory: "C:\Program Files\ANSYS Inc\v241\Framework\bin\Win64"
+
+Build Time: Nov 22 2023 10:34:35 EST 
+Executable Path: C:/PROGRA~1/ANSYSI~1/v241/fluent/ntbin/win64/fluent.exe
+
+----------------------------------------------------------------------------------------
+ID    Hostname        Core  O.S.         PID    Vendor                                 
+----------------------------------------------------------------------------------------
+n0*   LAB-GPV200-238  1/20  Windows-x64  11836  12th Gen Intel(R) Core(TM) i7-12700    
+host  LAB-GPV200-238        Windows-x64  17132  12th Gen Intel(R) Core(TM) i7-12700    
+
+MPI Option Selected: intel
+Selected system interconnect: default
+----------------------------------------------------------------------------------------
+
+Cortex Process ID: 17276 
+License Server Path: 1055@ansys-lics.qut.edu.au 
+Fast-loading "C:\PROGRA~1\ANSYSI~1\v241\fluent\fluent24.1.0\\addons\afd\lib\hdfio.bin"
+Done.
+Note: Rank = 0: Process affinity not being set (6).
+Reading setting file in cache: "C:\Users\n11309270\Downloads\crossflowmesh_files\dp0\FFF\Fluent\FFF.1.set"
+
+Reading from LAB-GPV200-238:"C:\Users\n11309270\Downloads\crossflowmesh_files\dp0\FFF\Fluent\FFF.1-Setup-Output.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       11064 cells,     1 cell zone  ...
+          11064 quadrilateral cells,  zone id: 3
+       22412 faces,     6 face zones ...
+          21532 2D interior faces,  zone id: 1
+            312 2D interior faces,  zone id: 2
+            106 2D velocity-inlet faces,  zone id: 6
+            106 2D pressure-outlet faces,  zone id: 7
+            228 2D wall faces,  zone id: 8
+            128 2D wall faces,  zone id: 9
+       11348 nodes,     1 node zone  ...
+  Done.
+
+
+
+Building...
+     mesh
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	body
+	walls
+	outlet
+	inlet
+	part-surface_body
+	interior-part-surface_body
+	fluid-part-surface_bodySetting fluid-part-surface_body (mixture) ... Done.
+ Setting zone id of fluid-part-surface_body to 3.
+ Setting zone id of interior-part-surface_body to 1.
+ Setting zone id of part-surface_body to 2.
+ Setting zone id of inlet to 6.
+ Setting zone id of outlet to 7.
+ Setting zone id of walls to 8.
+ Setting zone id of body to 9.
+Done.
+Setting fluid-part-surface_body (mixture) ... Done.
+Setting interior-part-surface_body (mixture) ... Done.
+Setting part-surface_body (mixture) ... Done.
+Setting inlet (mixture) ... Done.
+Setting outlet (mixture) ... Done.
+Setting walls (mixture) ... Done.
+Setting body (mixture) ... Done.
+
+     parallel,
+Done.
+
+Preparing mesh for display...
+Done.
+
+Setting Post Processing and Surfaces information ...	 Done.
+("File "C:\Users\n11309270\Downloads\crossflowmesh_files\dp0\FFF\Fluent\FFF.1-1-01104.dat.h5" not found!")
+
+Error: File "C:\Users\n11309270\Downloads\crossflowmesh_files\dp0\FFF\Fluent\FFF.1-1-01104.dat.h5" not found!
+Error Object: #f
+
+Performance Timer for 0 iterations on 1 compute node
+  Average wall-clock time per iteration:                0.000 sec
+  Global reductions per iteration:                          0 ops
+  Global reductions time per iteration:                 0.000 sec (0.0%)
+  Message count per iteration:                              0 messages
+  Data transfer per iteration:                          0.000 MB
+  LE solves per iteration:                                  0 solves
+  LE wall-clock time per iteration:                     0.000 sec (0.0%)
+  LE global solves per iteration:                           0 solves
+  LE global wall-clock time per iteration:              0.000 sec (0.0%)
+  LE global matrix maximum size:                            0
+  AMG cycles per iteration:                             0.000 cycles
+  Relaxation sweeps per iteration:                          0 sweeps
+  Relaxation exchanges per iteration:                       0 exchanges
+  LE early protections (stall) per iteration:           0.000 times
+  LE early protections (divergence) per iteration:      0.000 times
+  Total SVARS touched:                                    367
+
+  Total wall-clock time:                                0.000 sec
+
+Transcript Stop Time:  12:13:29, 24 Oct 2024 E. Australia Standard Time 
+Total Transcript Time: 0 Minute 15 Second.

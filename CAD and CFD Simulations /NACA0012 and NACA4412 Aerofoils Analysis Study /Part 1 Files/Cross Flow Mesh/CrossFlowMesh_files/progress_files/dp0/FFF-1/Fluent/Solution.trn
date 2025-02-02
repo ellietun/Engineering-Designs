@@ -1,0 +1,99 @@
+Transcript Start Time:  13:05:15, 22 Oct 2024 E. Australia Standard Time 
+Current Directory: "C:\Users\n11309270\OneDrive - Queensland University of Technology\Y3 S2\EGH423-CFD Assignment\Part 1\Cross Flow Mesh"
+
+Build Time: Nov 22 2023 10:27:48 EST 
+Executable Path: C:/PROGRA~1/ANSYSI~1/v241/fluent/ntbin/win64/fluent.exe
+
+----------------------------------------------------------------------------------------
+ID    Hostname        Core  O.S.         PID    Vendor                                 
+----------------------------------------------------------------------------------------
+n0*   LAB-GPV200-239  1/20  Windows-x64  11252  12th Gen Intel(R) Core(TM) i7-12700    
+host  LAB-GPV200-239        Windows-x64  3000   12th Gen Intel(R) Core(TM) i7-12700    
+
+MPI Option Selected: intel
+Selected system interconnect: default
+----------------------------------------------------------------------------------------
+
+Cortex Process ID: 16084 
+License Server Path: 1055@ansys-lics.qut.edu.au 
+Note: Rank = 0: Process affinity not being set (6).
+Reading "C:\Users\n11309270\OneDrive - Queensland University of Technology\Y3 S2\EGH423-CFD Assignment\Part 1\Cross Flow Mesh\CrossFlowMesh_files\dp0\FFF-1\MECH\FFF-1.msh"...
+Buffering for file scan...
+
+     113 nodes, binary.
+      58 nodes, binary.
+     255 2D interior faces, zone  1, binary.
+      58 2D wall faces, zone  5, binary.
+     142 quadrilateral cells, zone  2, binary.
+
+Building...
+     mesh
+     materials,
+     interface,
+     domains,
+     zones,
+	wall-part-surface_body
+	part-surface_body
+	interior-part-surface_body
+     parallel,
+Done.
+
+Preparing mesh for display...
+Done.
+
+Writing Settings file "C:\Users\n11309270\OneDrive - Queensland University of Technology\Y3 S2\EGH423-CFD Assignment\Part 1\Cross Flow Mesh\CrossFlowMesh_files\dp0\FFF-1\Fluent\FFF-1.set"...
+	writing rp variables ... Done.
+	writing domain variables ... Done.
+	writing part-surface_body (type fluid) (mixture) ... Done.
+	writing interior-part-surface_body (type interior) (mixture) ... Done.
+	writing wall-part-surface_body (type wall) (mixture) ... Done.
+	writing zones map name-id ... Done.
+"Updating Setup cell..."
+"Updating Solution cell..."
+Initialization based on settings...
+
+Initialize using the hybrid initialization method.
+
+Checking case topology... 
+-This case has no inlets & no outlets 
+-Case will be initialized with constant parameters
+
+Hybrid initialization is done.
+Writing data to C:\\Users\\n11309270\\OneDrive - Queensland University of Technology\\Y3 S2\\EGH423-CFD Assignment\\Part 1\\Cross Flow Mesh\\CrossFlowMesh_files\\dp0\\FFF-1\\Fluent\\FFF-1.ip ...
+	x-coord
+	y-coord
+	pressure
+	x-velocity
+	y-velocity
+	k
+	omega
+	hyb_init-0
+	hyb_init-1
+Done.
+("Unable to update solution. Number of iterations should be greater than zero.")
+
+Error: Unable to update solution. Number of iterations should be greater than zero.
+Error Object: #f
+
+Performance Timer for 0 iterations on 1 compute node
+  Average wall-clock time per iteration:                0.000 sec
+  Global reductions per iteration:                          0 ops
+  Global reductions time per iteration:                 0.000 sec (0.0%)
+  Message count per iteration:                              0 messages
+  Data transfer per iteration:                          0.000 MB
+  LE solves per iteration:                                  0 solves
+  LE wall-clock time per iteration:                     0.000 sec (0.0%)
+  LE global solves per iteration:                           0 solves
+  LE global wall-clock time per iteration:              0.000 sec (0.0%)
+  LE global matrix maximum size:                            0
+  AMG cycles per iteration:                             0.000 cycles
+  Relaxation sweeps per iteration:                          0 sweeps
+  Relaxation exchanges per iteration:                       0 exchanges
+  LE early protections (stall) per iteration:           0.000 times
+  LE early protections (divergence) per iteration:      0.000 times
+  Total SVARS touched:                                    372
+
+  Total wall-clock time:                                0.000 sec
+
+Transcript Stop Time:  13:05:30, 22 Oct 2024 E. Australia Standard Time 
+Total Transcript Time: 0 Minute 15 Second.

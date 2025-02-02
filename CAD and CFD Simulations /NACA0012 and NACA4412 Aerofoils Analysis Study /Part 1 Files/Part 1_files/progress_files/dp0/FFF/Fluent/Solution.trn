@@ -1,0 +1,185 @@
+Transcript Start Time:  14:39:25, 17 Oct 2024 E. Australia Standard Time 
+Current Directory: "D:\EGH423 CFD ASSIGNMENT"
+
+Build Time: Nov 22 2023 10:34:35 EST 
+Executable Path: C:/PROGRA~1/ANSYSI~1/v241/fluent/ntbin/win64/fluent.exe
+
+---------------------------------------------------------------------------------------
+ID    Hostname       Core  O.S.         PID    Vendor                                 
+---------------------------------------------------------------------------------------
+n0*   LAB-GPP400-35  1/20  Windows-x64  17628  12th Gen Intel(R) Core(TM) i7-12700    
+host  LAB-GPP400-35        Windows-x64  17132  12th Gen Intel(R) Core(TM) i7-12700    
+
+MPI Option Selected: intel
+Selected system interconnect: default
+---------------------------------------------------------------------------------------
+
+Cortex Process ID: 12628 
+License Server Path: 1055@ansys-lics.qut.edu.au 
+Fast-loading "C:\PROGRA~1\ANSYSI~1\v241\fluent\fluent24.1.0\\addons\afd\lib\hdfio.bin"
+Done.
+Note: Rank = 0: Process affinity not being set (6).
+Reading setting file in cache: "D:\EGH423 CFD ASSIGNMENT\Part 1.2_files\dp0\FFF\Fluent\FFF.set"
+
+Reading from LAB-GPP400-35:"D:\EGH423 CFD ASSIGNMENT\Part 1.2_files\dp0\FFF\Fluent\FFF.1-Setup-Output.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+        2799 cells,     1 cell zone  ...
+           2799 triangular cells,  zone id: 2
+        4294 faces,     5 face zones ...
+           4103 2D interior faces,  zone id: 1
+             10 2D velocity-inlet faces,  zone id: 5
+              9 2D pressure-outlet faces,  zone id: 6
+             38 2D wall faces,  zone id: 7
+            134 2D wall faces,  zone id: 8
+        1495 nodes,     1 node zone  ...
+  Done.
+
+
+
+Building...
+     mesh
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	body
+	walls
+	outlet
+	inlet
+	interior-surface_body
+	surface_bodySetting surface_body (mixture) ... Done.
+ Setting zone id of surface_body to 2.
+ Setting zone id of interior-surface_body to 1.
+ Setting zone id of inlet to 5.
+ Setting zone id of outlet to 6.
+ Setting zone id of walls to 7.
+ Setting zone id of body to 8.
+Done.
+Setting surface_body (mixture) ... Done.
+Setting interior-surface_body (mixture) ... Done.
+Setting inlet (mixture) ... Done.
+Setting outlet (mixture) ... Done.
+Setting walls (mixture) ... Done.
+Setting body (mixture) ... Done.
+
+     parallel,
+Done.
+
+Preparing mesh for display...
+Done.
+
+Setting Post Processing and Surfaces information ...	 Done.
+Reading D:\\EGH423 CFD ASSIGNMENT\\Part 1.2_files\\dp0\\FFF\\Fluent\\FFF.ip...
+Reading IP data ...
+	x-coord
+	y-coord
+	pressure
+	x-velocity
+	y-velocity
+	hyb_init-0
+	hyb_init-1
+  Done.
+  Initializing values...
+  Done.
+Overwriting "D:\EGH423 CFD ASSIGNMENT\Part 1.2_files\dp0\FFF\Fluent\.\\drag-coefficient-rfile.out"  of Report File "drag-coefficient-rfile"
+
+  iter  continuity  x-velocity  y-velocity  drag-coeff     time/iter
+     1  1.0000e+00  4.7663e-02  2.1927e-02  8.3054e+00  0:00:00 4999
+     2  5.3721e-01  2.9221e-02  1.3086e-02  8.3465e+00  0:00:00 4998
+     3  2.5243e-01  1.3770e-02  6.3680e-03  8.4057e+00  0:00:00 4997
+     4  1.4779e-01  6.8454e-03  3.4447e-03  8.4293e+00  0:00:00 4996
+     5  1.0501e-01  3.5147e-03  1.9280e-03  8.4326e+00  0:00:00 4995
+     6  7.7992e-02  1.8606e-03  1.1297e-03  8.4261e+00  0:00:00 4994
+     7  5.6400e-02  1.0317e-03  6.9281e-04  8.4150e+00  0:00:00 4993
+     8  3.9678e-02  5.9522e-04  4.4527e-04  8.4045e+00  0:00:00 4992
+     9  2.7736e-02  3.6044e-04  2.9069e-04  8.3965e+00  0:00:00 4991
+    10  1.9477e-02  2.3080e-04  1.9411e-04  8.3916e+00  0:00:00 4990
+    11  1.3625e-02  1.5698e-04  1.3336e-04  8.3890e+00  0:00:00 4989
+
+  iter  continuity  x-velocity  y-velocity  drag-coeff     time/iter
+    12  9.4433e-03  1.1005e-04  9.4427e-05  8.3879e+00  0:00:00 4988
+    13  6.5277e-03  7.7167e-05  6.5578e-05  8.3876e+00  0:00:00 4987
+    14  4.5233e-03  5.4353e-05  4.5280e-05  8.3882e+00  0:00:00 4986
+    15  3.1658e-03  3.8228e-05  3.1402e-05  8.3883e+00  0:00:00 4985
+    16  2.2386e-03  2.7079e-05  2.2065e-05  8.3882e+00  0:00:00 4984
+    17  1.5980e-03  1.9558e-05  1.5580e-05  8.3881e+00  0:00:00 4983
+    18  1.1461e-03  1.4301e-05  1.1039e-05  8.3880e+00  0:00:00 4982
+    19  8.2290e-04  1.0577e-05  7.9359e-06  8.3879e+00  0:00:00 4981
+    20  5.9624e-04  7.9332e-06  5.7963e-06  8.3878e+00  1:23:00 4980
+    21  4.2723e-04  5.9655e-06  4.2088e-06  8.3878e+00  1:06:23 4979
+    22  3.2184e-04  4.5413e-06  3.1186e-06  8.3877e+00  0:53:06 4978
+
+  iter  continuity  x-velocity  y-velocity  drag-coeff     time/iter
+    23  2.4580e-04  3.5021e-06  2.3412e-06  8.3877e+00  0:42:28 4977
+    24  1.8906e-04  2.7181e-06  1.7714e-06  8.3877e+00  0:33:58 4976
+    25  1.4588e-04  2.1186e-06  1.3390e-06  8.3876e+00  0:27:10 4975
+    26  1.1409e-04  1.6692e-06  1.0316e-06  8.3876e+00  0:21:44 4974
+    27  8.9853e-05  1.3274e-06  7.9997e-07  8.3876e+00  0:17:23 4973
+    28  7.1462e-05  1.0619e-06  6.2484e-07  8.3876e+00  0:13:54 4972
+    29  5.7220e-05  8.5444e-07  4.9220e-07  8.3876e+00  0:11:07 4971
+    30  4.5983e-05  6.9187e-07  3.8930e-07  8.3876e+00  0:08:54 4970
+    31  3.6997e-05  5.6292e-07  3.0591e-07  8.3876e+00  0:07:07 4969
+    32  3.0112e-05  4.5954e-07  2.4258e-07  8.3876e+00  0:05:41 4968
+    33  2.4631e-05  3.7632e-07  1.9570e-07  8.3876e+00  0:04:33 4967
+
+  iter  continuity  x-velocity  y-velocity  drag-coeff     time/iter
+    34  2.0193e-05  3.1037e-07  1.5860e-07  8.3876e+00  0:03:38 4966
+    35  1.6620e-05  2.5674e-07  1.2916e-07  8.3876e+00  0:02:55 4965
+    36  1.3649e-05  2.1274e-07  1.0407e-07  8.3876e+00  0:02:20 4964
+    37  1.1284e-05  1.7603e-07  8.5064e-08  8.3876e+00  0:01:52 4963
+    38  9.3655e-06  1.4610e-07  7.0147e-08  8.3876e+00  0:01:29 4962
+    39  7.8015e-06  1.2175e-07  5.8175e-08  8.3876e+00  0:01:11 4961
+    40  6.5535e-06  1.0201e-07  4.9252e-08  8.3876e+00  0:00:57 4960
+    41  5.5153e-06  8.5816e-08  4.1635e-08  8.3876e+00  0:00:46 4959
+    42  4.6614e-06  7.2300e-08  3.5163e-08  8.3876e+00  0:00:37 4958
+    43  3.9507e-06  6.1075e-08  2.9726e-08  8.3876e+00  0:00:29 4957
+    44  3.3549e-06  5.1670e-08  2.5192e-08  8.3876e+00  0:00:23 4956
+
+  iter  continuity  x-velocity  y-velocity  drag-coeff     time/iter
+    45  2.8541e-06  4.3788e-08  2.1385e-08  8.3876e+00  0:00:19 4955
+    46  2.4316e-06  3.7168e-08  1.8179e-08  8.3876e+00  0:00:15 4954
+    47  2.0744e-06  3.1595e-08  1.5475e-08  8.3876e+00  0:16:43 4953
+    48  1.7718e-06  2.6894e-08  1.3190e-08  8.3876e+00  0:13:22 4952
+    49  1.5163e-06  2.2918e-08  1.1256e-08  8.3876e+00  0:10:41 4951
+    50  1.2990e-06  1.9560e-08  9.6164e-09  8.3876e+00  0:08:33 4950
+    51  1.1136e-06  1.6716e-08  8.2259e-09  8.3876e+00  0:06:50 4949
+    52  9.5519e-07  1.4298e-08  7.0423e-09  8.3876e+00  0:05:28 4948
+!   52 solution is converged
+Registering ReportDefFiles, ("D:\EGH423 CFD ASSIGNMENT\Part 1.2_files\dp0\FFF\Fluent\.\\drag-coefficient-rfile.out")
+Writing "| gzip -2cf > SolutionMonitor.gz"...
+Writing temporary file C:\\Users\\N10990~1\\AppData\\Local\\Temp\\flntgz-171322 ...
+Done.
+
+Writing data to D:\\EGH423 CFD ASSIGNMENT\\Part 1.2_files\\dp0\\FFF\\Fluent\\FFF.1.ip ...
+	x-coord
+	y-coord
+	pressure
+	x-velocity
+	y-velocity
+	hyb_init-0
+	hyb_init-1
+Done.
+
+Performance Timer for 52 iterations on 1 compute node
+  Average wall-clock time per iteration:                0.003 sec
+  Global reductions per iteration:                         46 ops
+  Global reductions time per iteration:                 0.000 sec (0.0%)
+  Message count per iteration:                              7 messages
+  Data transfer per iteration:                          0.000 MB
+  LE solves per iteration:                                  1 solves
+  LE wall-clock time per iteration:                     0.002 sec (51.4%)
+  LE global solves per iteration:                           0 solves
+  LE global wall-clock time per iteration:              0.000 sec (0.0%)
+  LE global matrix maximum size:                            0
+  AMG cycles per iteration:                             1.250 cycles
+  Relaxation sweeps per iteration:                        135 sweeps
+  Relaxation exchanges per iteration:                       0 exchanges
+  LE early protections (stall) per iteration:           0.000 times
+  LE early protections (divergence) per iteration:      0.000 times
+  Total SVARS touched:                                    372
+
+  Total wall-clock time:                                0.173 sec
+
+Transcript Stop Time:  14:39:42, 17 Oct 2024 E. Australia Standard Time 
+Total Transcript Time: 0 Minute 17 Second.

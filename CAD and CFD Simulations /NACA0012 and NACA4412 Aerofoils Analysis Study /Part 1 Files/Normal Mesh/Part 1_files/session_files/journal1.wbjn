@@ -1,0 +1,26 @@
+# encoding: utf-8
+# 2024 R1
+SetScriptVersion(Version="24.1.144")
+template1 = GetTemplate(TemplateName="Fluid Flow")
+system1 = template1.CreateSystem()
+system1.DisplayText = "Mesh 1"
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometryProperties1 = geometry1.GetGeometryProperties()
+geometryProperties1.GeometryImportAnalysisType = "AnalysisType_2D"
+geometry1.Edit()
+geometry1.Exit()
+system1.Delete()
+system2 = template1.CreateSystem()
+geometry2 = system2.GetContainer(ComponentName="Geometry")
+geometryProperties2 = geometry2.GetGeometryProperties()
+geometryProperties2.GeometryImportAnalysisType = "AnalysisType_2D"
+geometry2.Edit()
+Save(Overwrite=True)
+system2.DisplayText = "Mesh 1"
+Save(Overwrite=True)
+geometry2.Exit()
+meshComponent1 = system2.GetComponent(Name="Mesh")
+meshComponent1.Refresh()
+mesh1 = system2.GetContainer(ComponentName="Mesh")
+mesh1.Edit()
+Save(Overwrite=True)

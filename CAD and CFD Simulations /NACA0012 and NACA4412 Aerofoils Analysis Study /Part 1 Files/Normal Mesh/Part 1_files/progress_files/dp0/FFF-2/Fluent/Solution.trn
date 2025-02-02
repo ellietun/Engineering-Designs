@@ -1,0 +1,170 @@
+Transcript Start Time:  16:19:12, 17 Oct 2024 E. Australia Standard Time 
+Current Directory: "D:\EGH423 CFD ASSIGNMENT"
+
+Build Time: Nov 22 2023 10:34:35 EST 
+Executable Path: C:/PROGRA~1/ANSYSI~1/v241/fluent/ntbin/win64/fluent.exe
+
+---------------------------------------------------------------------------------------
+ID    Hostname       Core  O.S.         PID    Vendor                                 
+---------------------------------------------------------------------------------------
+n0*   LAB-GPS601-42  1/20  Windows-x64  13112  12th Gen Intel(R) Core(TM) i7-12700    
+host  LAB-GPS601-42        Windows-x64  4396   12th Gen Intel(R) Core(TM) i7-12700    
+
+MPI Option Selected: intel
+Selected system interconnect: default
+---------------------------------------------------------------------------------------
+
+Cortex Process ID: 12660 
+License Server Path: 1055@ansys-lics.qut.edu.au 
+Fast-loading "C:\PROGRA~1\ANSYSI~1\v241\fluent\fluent24.1.0\\addons\afd\lib\hdfio.bin"
+Done.
+
+LAB-GPS601-42 has other FLUENT parallel processes running.                       Process affinity not being set.
+Reading setting file in cache: "D:\EGH423 CFD ASSIGNMENT\Part 1.2_files\dp0\FFF-2\Fluent\FFF.set"
+
+Reading from LAB-GPS601-42:"D:\EGH423 CFD ASSIGNMENT\Part 1.2_files\dp0\FFF-2\Fluent\FFF-2-Setup-Output.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+        6334 cells,     1 cell zone  ...
+           6334 triangular cells,  zone id: 2
+        9719 faces,     5 face zones ...
+           9283 2D interior faces,  zone id: 1
+             19 2D velocity-inlet faces,  zone id: 5
+             19 2D pressure-outlet faces,  zone id: 6
+             76 2D wall faces,  zone id: 7
+            322 2D wall faces,  zone id: 8
+        3385 nodes,     1 node zone  ...
+  Done.
+
+
+
+Building...
+     mesh
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	body
+	walls
+	outlet
+	inlet
+	interior-surface_body
+	surface_bodySetting surface_body (mixture) ... Done.
+ Setting zone id of surface_body to 2.
+ Setting zone id of interior-surface_body to 1.
+ Setting zone id of inlet to 5.
+ Setting zone id of outlet to 6.
+ Setting zone id of walls to 7.
+ Setting zone id of body to 8.
+Done.
+Setting surface_body (mixture) ... Done.
+Setting interior-surface_body (mixture) ... Done.
+Setting inlet (mixture) ... Done.
+Setting outlet (mixture) ... Done.
+Setting walls (mixture) ... Done.
+Setting body (mixture) ... Done.
+
+     parallel,
+Done.
+
+Preparing mesh for display...
+Done.
+
+Setting Post Processing and Surfaces information ...	 Done.
+Reading D:\\EGH423 CFD ASSIGNMENT\\Part 1.2_files\\dp0\\FFF-2\\Fluent\\FFF-2.1.ip...
+Reading IP data ...
+	x-coord
+	y-coord
+	pressure
+	x-velocity
+	y-velocity
+	hyb_init-0
+	hyb_init-1
+  Done.
+  Initializing values...
+  Done.
+Overwriting "D:\EGH423 CFD ASSIGNMENT\Part 1.2_files\dp0\FFF-2\Fluent\.\\drag-coefficient-rfile.out"  of Report File "drag-coefficient-rfile"
+
+  iter  continuity  x-velocity  y-velocity  drag-coeff     time/iter
+     1  1.0000e+00  5.4385e-02  2.1533e-02  8.9253e+00  0:00:00 4999
+     2  5.5298e-01  3.2479e-02  1.2412e-02  9.0707e+00  1:23:18 4998
+     3  2.2633e-01  1.4568e-02  6.1985e-03  9.0073e+00  1:06:38 4997
+     4  1.1907e-01  7.0558e-03  3.4811e-03  8.8700e+00  0:53:17 4996
+     5  8.3041e-02  3.5743e-03  1.9703e-03  8.7363e+00  0:42:37 4995
+     6  6.4049e-02  1.8571e-03  1.1298e-03  8.6362e+00  0:34:06 4994
+     7  4.8435e-02  9.9226e-04  6.6270e-04  8.5716e+00  0:27:16 4993
+     8  3.4710e-02  5.5665e-04  4.0847e-04  8.5346e+00  0:21:49 4992
+     9  2.4084e-02  3.3351e-04  2.6768e-04  8.5224e+00  0:17:27 4991
+    10  1.6336e-02  2.1412e-04  1.7927e-04  8.5159e+00  0:13:57 4990
+    11  1.0896e-02  1.4440e-04  1.2161e-04  8.5134e+00  0:11:10 4989
+
+  iter  continuity  x-velocity  y-velocity  drag-coeff     time/iter
+    12  7.2311e-03  9.9923e-05  8.2645e-05  8.5122e+00  0:08:56 4988
+    13  4.8010e-03  6.9541e-05  5.6025e-05  8.5116e+00  0:07:08 4987
+    14  3.2113e-03  4.8366e-05  3.8050e-05  8.5113e+00  0:05:43 4986
+    15  2.1598e-03  3.3604e-05  2.5886e-05  8.5111e+00  0:04:34 4985
+    16  1.4659e-03  2.3361e-05  1.7705e-05  8.5110e+00  0:03:39 4984
+    17  1.0025e-03  1.6297e-05  1.2210e-05  8.5109e+00  0:02:55 4983
+    18  6.9146e-04  1.1405e-05  8.5007e-06  8.5108e+00  0:02:20 4982
+    19  4.7908e-04  8.0015e-06  5.9718e-06  8.5108e+00  0:01:52 4981
+    20  3.3483e-04  5.6280e-06  4.2094e-06  8.5107e+00  0:01:30 4980
+    21  2.3552e-04  3.9638e-06  2.9690e-06  8.5107e+00  0:01:12 4979
+    22  1.6603e-04  2.7985e-06  2.1007e-06  8.5107e+00  0:00:57 4978
+
+  iter  continuity  x-velocity  y-velocity  drag-coeff     time/iter
+    23  1.1741e-04  1.9804e-06  1.4899e-06  8.5107e+00  0:00:46 4977
+    24  8.3197e-05  1.4048e-06  1.0579e-06  8.5107e+00  0:00:37 4976
+    25  5.9106e-05  1.0000e-06  7.5301e-07  8.5107e+00  0:00:29 4975
+    26  4.2167e-05  7.1476e-07  5.3776e-07  8.5107e+00  0:16:58 4974
+    27  3.0101e-05  5.1257e-07  3.8623e-07  8.5107e+00  0:13:34 4973
+    28  2.1521e-05  3.6983e-07  2.7823e-07  8.5107e+00  0:10:51 4972
+    29  1.5426e-05  2.6777e-07  2.0124e-07  8.5107e+00  0:08:41 4971
+    30  1.1073e-05  1.9451e-07  1.4613e-07  8.5107e+00  0:06:57 4970
+    31  7.9565e-06  1.4182e-07  1.0672e-07  8.5107e+00  0:05:33 4969
+    32  5.7272e-06  1.0397e-07  7.8146e-08  8.5107e+00  0:04:27 4968
+    33  4.1329e-06  7.6452e-08  5.7334e-08  8.5107e+00  0:03:33 4967
+
+  iter  continuity  x-velocity  y-velocity  drag-coeff     time/iter
+    34  2.9855e-06  5.6376e-08  4.2118e-08  8.5107e+00  0:02:51 4966
+    35  2.1630e-06  4.1676e-08  3.1038e-08  8.5107e+00  0:02:16 4965
+    36  1.5719e-06  3.0893e-08  2.2920e-08  8.5107e+00  0:01:49 4964
+    37  1.1443e-06  2.2941e-08  1.6988e-08  8.5107e+00  0:01:27 4963
+    38  8.3377e-07  1.7065e-08  1.2632e-08  8.5107e+00  0:01:10 4962
+!   38 solution is converged
+Registering ReportDefFiles, ("D:\EGH423 CFD ASSIGNMENT\Part 1.2_files\dp0\FFF-2\Fluent\.\\drag-coefficient-rfile.out")
+Writing "| gzip -2cf > SolutionMonitor.gz"...
+Writing temporary file C:\\Users\\N10990~1\\AppData\\Local\\Temp\\flntgz-43962 ...
+Done.
+
+Writing data to D:\\EGH423 CFD ASSIGNMENT\\Part 1.2_files\\dp0\\FFF-2\\Fluent\\FFF-2.ip ...
+	x-coord
+	y-coord
+	pressure
+	x-velocity
+	y-velocity
+	hyb_init-0
+	hyb_init-1
+Done.
+
+Performance Timer for 38 iterations on 1 compute node
+  Average wall-clock time per iteration:                0.008 sec
+  Global reductions per iteration:                         47 ops
+  Global reductions time per iteration:                 0.000 sec (0.0%)
+  Message count per iteration:                              7 messages
+  Data transfer per iteration:                          0.000 MB
+  LE solves per iteration:                                  1 solves
+  LE wall-clock time per iteration:                     0.005 sec (56.9%)
+  LE global solves per iteration:                           0 solves
+  LE global wall-clock time per iteration:              0.000 sec (0.0%)
+  LE global matrix maximum size:                            0
+  AMG cycles per iteration:                             1.789 cycles
+  Relaxation sweeps per iteration:                        154 sweeps
+  Relaxation exchanges per iteration:                       0 exchanges
+  LE early protections (stall) per iteration:           0.000 times
+  LE early protections (divergence) per iteration:      0.000 times
+  Total SVARS touched:                                    372
+
+  Total wall-clock time:                                0.306 sec
+
+Transcript Stop Time:  16:19:32, 17 Oct 2024 E. Australia Standard Time 
+Total Transcript Time: 0 Minute 20 Second.
